@@ -45,6 +45,8 @@ define({{NOTE}}, {{<div class="notes"> $* </div>}})
 
 define({{FOOTER}}, {{<footer> $* </footer>}})
 
+define({{MULTIANSWER}}, {{<span class="multianswer"></span>}})
+
 define({{CORRECT}}, {{ifelse( $#, 3,
                             <div class="answer right" style="width:$3"> {{$1}} <div class="tooltip"> {{$2}} </div> </div>,
                             {{ifelse( $#, 2, 
